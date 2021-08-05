@@ -43,11 +43,44 @@
         </nav>
     </head>
     <section class="">
-        <div class="d-flex justify-content-center">
+        <div class="d-flex fotoPelicula">
             <img class="imagen" src="./imgVistaPelicula/FF9nuevoposter.jpg" alt="">
+            <div class="formularioDescripcionPelicula">
+            
+            <section class=" m-4">
+                <div>
+                    <h3>Rapidos y Furiosos 9</h3>
+                </div>
+                <div class="me-5 pe-5">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error aperiam temporibus fugiat dolorem officia nihil porro, vitae facere consectetur similique dolore nostrum eum, eveniet id quam maiores at! Dolorem, nihil?
+                    Eius sed, obcaecati dignissimos, libero corrupti architecto expedita illum, facilis saepe quis natus iusto? Excepturi, possimus! Similique distinctio sequi explicabo? Aliquid nesciunt neque nam rerum unde esse cum dignissimos maiores.
+                </div>
+                <div>
+                    <button type="button" class="btn btn-warning text-light boton botonComprar" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal" data-bs-whatever="@mdo">Comprar</button>
+                </div>
+            </section>
+            <form class="formularioTarjeta m-5">
+                <div class="input-group mb-3">
+                    <input type="number" required class="form-control text-light bg-dark" placeholder="Numero de la Tarjeta">
+                  </div>
+                  <div class="input-group mb-3">
+                    <input type="text" required class="form-control text-light bg-dark" placeholder="Nombre en la Tarjeta">
+                  </div>
+                  <div class="input-group mb-3">
+                    <input type="month" required class="form-control text-light bg-dark" placeholder="Fecha de Vencimiento">
+                  </div>
+                  <div class="input-group mb-3">
+                    <input type="number" required class="form-control text-light bg-dark" placeholder="CVV">
+                  </div>
+                  <div class="bg-dark">
+                    <button type="submit" required class="btn btn-warning text-light boton">Comprar </button>
+                </div>
+            </form>
+        </div>
         </div>
     </section>
-    <section class=" m-4">
+    <section class=" m-4 descripcionPelicula">
         <div>
             <h3>Rapidos y Furiosos 9</h3>
         </div>
@@ -56,9 +89,10 @@
             beatae sit, tempore suscipit illo ab fugit aliquam distinctio. Deserunt nemo iure a dicta ea!
         </div>
         <div>
-            <button type="button" class="btn btn-warning text-light boton" data-bs-toggle="modal"
+            <button type="button" class="btn btn-warning text-light boton botonComprar" data-bs-toggle="modal"
                 data-bs-target="#exampleModal" data-bs-whatever="@mdo">Comprar</button>
         </div>
+        
     </section>
     <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
@@ -90,6 +124,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+        <script src="./vistaPelicula.js"></script>
 </body>
 
 </html>
